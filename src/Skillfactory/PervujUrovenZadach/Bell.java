@@ -12,5 +12,7 @@ public class Bell {
             System.out.println("dong");
             count--;
         }
+
+        
     }
 }
