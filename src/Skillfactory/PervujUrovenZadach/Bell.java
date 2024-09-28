@@ -11,10 +11,6 @@ public class Bell {
         else if (count == 1){
             System.out.println("dong");
             count--;
-
-
         }
-
-
     }
 }
