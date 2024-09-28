@@ -2,7 +2,7 @@ package Skillfactory.PervujUrovenZadach;
 
 public class Bell {
     public static int count = 0;
-    public static void sound(){
+    public static void dindon(){
 
         if (count == 0){
             System.out.println("ding");
