@@ -4,16 +4,21 @@ public class Svetofor {
     int counter;
     public String color = "";
 
-    public String change_color() {
+    public String changesColor() {
         counter += 1;
         if (counter == 1) {
             color = "green";
         } else if (counter == 2) {
             color = "yelov";
-        } else if (counter == 3) color = "red";
-        if (counter == 3) {
+        } else if (counter == 3) {
+            color = "red";
+        } else if (counter == 4) {
+            color = "yelov";
+        }
+        if (counter == 4) {
             counter = 0;
         }
+        System.out.println(color);
         return color;
     }
 
