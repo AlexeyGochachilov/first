@@ -19,6 +19,7 @@ public class Svetofor {
             counter = 0;
         }
         System.out.println(color);
+        svetofor(color);
         return color;
     }
 
