@@ -17,8 +17,4 @@ public class Zombie extends Monster{
         growl();
     }
 
-    public static void main(String[] args) {
-        Zombie z = new Zombie("Frank");
-        z.attack();
-    }
 }
