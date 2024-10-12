@@ -1,6 +1,5 @@
 package Skillfactory.PervujUrovenZadach;
 
-
 import java.util.Arrays;
 
 public class Separator {
