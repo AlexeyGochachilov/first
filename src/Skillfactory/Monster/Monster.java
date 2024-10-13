@@ -1,9 +1,11 @@
 package Skillfactory.Monster;
 
-public class Monster {
+public abstract class Monster {
     String name;
     int halfe;
     int damage;
+    int hp;
+    int force;
 
     public Monster(String name, int damage) {
         this.name = name;
